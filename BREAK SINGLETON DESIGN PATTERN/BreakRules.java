@@ -70,11 +70,11 @@ Deserialization is the reverse process of serialization. It involves converting 
          */
 
 
-        Student3 s7 = Student3.lazyCreateObject();
-        System.out.println(s7.hashCode());
+        // Student3 s7 = Student3.lazyCreateObject();
+        // System.out.println(s7.hashCode());
 
-        Student3 s8 =  (Student3) s7.clone();
-        System.out.println(s8.hashCode());
+        // Student3 s8 =  (Student3) s7.clone();
+        // System.out.println(s8.hashCode());
 
     }
 }
