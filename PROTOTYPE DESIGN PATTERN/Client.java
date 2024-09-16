@@ -15,5 +15,8 @@ public class Client {
         
         NetworkConnection conn1 = (NetworkConnection) conn.clone();
         System.out.println(conn1);
+        conn.getDomains().remove(0);
+        System.out.println(conn);
+        System.out.println(conn1);
     }
 }
